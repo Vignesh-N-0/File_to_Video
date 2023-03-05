@@ -14,7 +14,7 @@ use crate::args::Arguments;
 //Make it calculate how much data is jammed in 1 frame for user
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
-    println!("Welcome to ISG (Infinite Storage Glitch)");
+    println!("Welcome to ISG");
     println!("This tool allows you to turn any file into a compression-resistant video that can be uploaded to YouTube for Infinite Storage:tm:");
     println!("\nHow to use:");
     println!("1. Zip all the files you will be uploading");
